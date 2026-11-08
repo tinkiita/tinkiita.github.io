@@ -2094,13 +2094,24 @@ input, select, textarea {
 
 #header-wrapper {
     position: relative;
-    padding: 10em 0 6em 0;
-    background: url("/images/kris%20final.png") center top / contain no-repeat;
-    min-height: 400px;
+    padding: 0;
+    background: none;
 }
 
 .homepage #header-wrapper {
-    background-size: contain;
+    padding: 0;
+}
+
+#banner {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#banner img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 	#promo-wrapper {
