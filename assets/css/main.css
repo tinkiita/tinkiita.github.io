@@ -2096,13 +2096,13 @@ input, select, textarea {
     position: relative;
     padding: 10em 0 6em 0;
     background-image: url("../../images/kris%20final.png");
-    background-size: cover;
-    background-position: center;
+    background-size: 100% auto;
+    background-position: center top;
     background-repeat: no-repeat;
 }
 
 .homepage #header-wrapper {
-    background-size: cover;
+    background-size: 100% auto;
 }
 #banner {
     width: 100%;
