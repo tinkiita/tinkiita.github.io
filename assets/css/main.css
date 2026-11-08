@@ -2092,15 +2092,17 @@ input, select, textarea {
 			background: #f6f8fb url("images/image-wrapper.svg");
 		}
 
-	#header-wrapper {
+#header-wrapper {
     position: relative;
-    padding: 0;
-    background: none;
+    padding: 10em 0 6em 0;
+    background-image: url("../../images/kris%20final.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .homepage #header-wrapper {
-    padding: 0;
-    background: none;
+    background-size: cover;
 }
 #banner {
     width: 100%;
@@ -3075,23 +3077,4 @@ input, select, textarea {
 			}
 
 	}
-/* BANNER PERSONALIZADO */
 
-#header-wrapper #banner {
-    width: 100%;
-    height: 350px;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-#header-wrapper #banner img {
-    width: 100%;
-    max-width: none;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    object-fit: cover;
-    object-position: center;
-    display: block;
-}
