@@ -3075,3 +3075,23 @@ input, select, textarea {
 			}
 
 	}
+/* BANNER PERSONALIZADO */
+
+#header-wrapper #banner {
+    width: 100%;
+    height: 350px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#header-wrapper #banner img {
+    width: 100%;
+    max-width: none;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
