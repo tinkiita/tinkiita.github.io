@@ -2095,10 +2095,7 @@ input, select, textarea {
 #header-wrapper {
     position: relative;
     padding: 10em 0 6em 0;
-    background-image: url("images/kris final.png");
-    background-size: contain;
-    background-position: center top;
-    background-repeat: no-repeat;
+    background: url("/images/kris%20final.png") center top / contain no-repeat;
     min-height: 400px;
 }
 
